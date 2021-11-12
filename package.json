@@ -1,0 +1,18 @@
+{
+  "name": "RorCooking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "json:server": "json-server --watch data.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "json-server": "^0.16.3",
+    "tailwindcss": "^2.2.15"
+  }
+}

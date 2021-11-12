@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="./../fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet" />
+    <title>Ror Cooking</title>
+  </head>
+  <body>
+    <!-- wrapper -->
+    <div class="bg-gradient-to-r from-yellow-300 to-green-300 py-4">
+      <div class="container w-full md:w-4/5 md:mx-auto overflow-hidden bg-white rounded-xl">
+        <header class="px-8">
+          <nav class="flex p-4 md:justify-between md:items-center md:flex-row flex-col">
+            <div class="mb-4 md:mb-0 text-center md:text-left">
+              <h1 class="text-2xl font-bold">Rors<span class="text-yellow-400">Cooking</span></h1>
+            </div>
+            <div class="flex md:justify-start justify-center">
+              <a href="#"><button class="btn-header">Sign Up</button></a>
+              <a href="#"><button class="btn-header">Log in</button></a>
+            </div>
+          </nav>
+          <ul class="md:flex py-3 hidden">
+            <li class="px-4">
+              <i class="fas fa-home text-yellow-400 mr-1"></i>
+              <a href="#" class="font-bold text-gray-500 text-lg hover:text-green-400 transition">Home</a>
+            </li>
+            <li class="px-4">
+              <i class="fas fa-book text-yellow-400 mr-1"></i>
+              <a href="#recipes" class="font-bold text-gray-500 text-lg hover:text-green-400 transition">Recipes</a>
+            </li>
+            <li class="px-4">
+              <i class="fas fa-utensils text-yellow-400 mr-1"></i>
+              <a href="#class" class="font-bold text-gray-500 text-lg hover:text-green-400 transition">Rors Class</a>
+            </li>
+            <li class="px-4">
+              <i class="fas fa-envelope text-yellow-400 mr-1"></i>
+              <a href="#contact" class="font-bold text-gray-500 text-lg hover:text-green-400 transition">Contact</a>
+            </li>
+          </ul>
+        </header>
+
+        <!-- home -->
+        <section class="px-8">
+          <div class="flex flex-col md:flex-row">
+            <div class="flex-1 py-2 px-4">
+              <h1 class="md:text-5xl lg:text-7xl xl:text-8xl font-semibold py-4 mb-4 text-5xl text-center md:text-left">Let's Start Cooking With Our Ror Recipes</h1>
+              <p class="text-gray-500 px-1 mb-4 text-center md:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto delectus commodi quaerat necessitatibus ea repellendus.</p>
+              <div class="py-4 md:text-left text-center">
+                <button class="bg-yellow-400 text-white rounded-2xl px-4 mr-2 py-2 mb-2 text-base lg:text-lg hover:bg-yellow-300 transition shadow">Get Started</button>
+                <button class="bg-green-400 text-white rounded-2xl px-4 py-2 text-base lg:text-lg hover:bg-green-300 transition shadow">Explore Recipes</button>
+              </div>
+              <div class="flex md:max-w-1/2 xl:max-w-1/4 w-full md:justify-between justify-evenly text-4xl py-2">
+                <a href="#"><i class="fab fa-instagram text-yellow-600 transform hover:-translate-y-1 transition duration-300"></i></a>
+                <a href="#"><i class="fab fa-twitter text-blue-600 transform hover:-translate-y-1 transition duration-300"></i></a>
+                <a href="#"><i class="fab fa-youtube text-red-600 transform hover:-translate-y-1 transition duration-300"></i></a>
+              </div>
+            </div>
+            <!-- images cooking -->
+            <div class="flex-1">
+              <img src="images/1.png" class="object-contain md:object-scale-down relative top-4" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <!-- Recipes-->
+        <section class="px-8 bg-gray-200 py-4" id="recipes">
+          <h3 class="text-yellow-400 text-5xl font-semibold py-4 text-center md:text-left">Our Recipes</h3>
+          <h5 class="text-2xl px-2 font-semibold text-semi-black text-center md:text-left">Top Recipes This Week</h5>
+          <!-- top recipes -->
+          <div class="grid md:grid-cols-2 grid-cols-1">
+            <div class="col-span-1 grid grid-cols-2 gap-4 p-4">
+              <!-- cards -->
+              <div class="bg-white rounded-2xl overflow-hidden">
+                <div>
+                  <img src="images/2.jpg" class="w-full object-cover" alt="" />
+                </div>
+                <div class="px-4 py-2">
+                  <h6 class="font-bold text-lg ml-1">Salmond</h6>
+                  <i class="fas fa-star text-yellow-200"></i>
+                  <span class="text-semi-black font-semibold">4.5(100)</span>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-2xl overflow-hidden">
+                <div>
+                  <img src="images/3.jpg" class="w-full object-cover" alt="" />
+                </div>
+                <div class="px-4 py-2">
+                  <h6 class="font-bold text-lg ml-1">Garlic Bread</h6>
+                  <i class="fas fa-star text-yellow-200"></i>
+                  <span class="text-semi-black font-semibold">4.8(120)</span>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-2xl overflow-hidden">
+                <div>
+                  <img src="images/4.jpg" class="w-full object-cover" alt="" />
+                </div>
+                <div class="px-4 py-2">
+                  <h6 class="font-bold text-lg ml-1">Toast with Egg</h6>
+                  <i class="fas fa-star text-yellow-200"></i>
+                  <span class="text-semi-black font-semibold">4.2(10)</span>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-2xl overflow-hidden">
+                <div>
+                  <img src="images/5.jpg" class="w-full object-cover" alt="" />
+                </div>
+                <div class="px-4 py-2">
+                  <h6 class="font-bold text-lg ml-1">Vegan Sandwich</h6>
+                  <i class="fas fa-star text-yellow-200"></i>
+                  <span class="text-semi-black font-semibold">4.7(900)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-span-1 py-4">
+              <div class="bg-white rounded-2xl overflow-hidden">
+                <div>
+                  <img src="images/6.jpg" class="w-full object-cover" alt="" />
+                </div>
+                <div class="px-4 py-2">
+                  <h6 class="font-bold text-lg ml-1">Salad</h6>
+                  <p class="ml-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur aperiam ut voluptatum voluptatem a velit, corrupti, delectus quaerat minus in exercitationem, deserunt amet eius laboriosam!</p>
+                  <i class="fas fa-star text-yellow-200"></i>
+                  <span class="text-semi-black font-semibold">4.0(100)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- how to make -->
+        <section class="px-8 py-4">
+          <div class="flex justify-center items-center p-4 flex-col mb-8">
+            <h3 class="text-3xl font-bold text-center md:text-left">Cooking in 3 Easy Steps</h3>
+            <div class="grid md:grid-cols-3 gap-8 py-4 grid-cols-1">
+              <div>
+                <div class="flex justify-center items-center p-4 relative">
+                  <div class="bg-gradient-to-r from-yellow-300 to-green-300 w-20 h-20 rounded-full absolute opacity-50"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z"
+                    />
+                  </svg>
+                </div>
+                <div class="text-center">
+                  <h5 class="text-xl p-2 font-semibold">Choose Your Favorite</h5>
+                  <p class="text-semi-black">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta doloremque ea voluptatum quia corporis rem.</p>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-center items-center p-4">
+                  <div class="bg-gradient-to-r from-yellow-300 to-green-300 w-20 h-20 rounded-full absolute opacity-50"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+                    />
+                  </svg>
+                </div>
+                <div class="text-center">
+                  <h5 class="text-xl p-2 font-semibold">Follow the Recipe</h5>
+                  <p class="text-semi-black">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta doloremque ea voluptatum quia corporis rem.</p>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-center items-center p-4">
+                  <div class="bg-gradient-to-r from-yellow-300 to-green-300 w-20 h-20 rounded-full absolute opacity-50"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                    <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                    />
+                  </svg>
+                </div>
+                <div class="text-center">
+                  <h5 class="text-xl p-2 font-semibold">Cook Like A Top Chef</h5>
+                  <p class="text-semi-black">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta doloremque ea voluptatum quia corporis rem.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Class -->
+        <section class="bg-gray-200 px-8 py-5" id="class">
+          <div class="py-4">
+            <h3 class="text-green-400 text-5xl font-semibold py-2 text-center md:text-left">Rors Class</h3>
+            <p class="text-semi-black font-semibold text-center md:text-left">Still having some hard time ? Join our class.</p>
+          </div>
+          <div class="flex flex-col md:flex-row">
+            <div class="flex-1 relative">
+              <img src="images/bg1.jpg" class="w-full h-full object-cover" alt="" />
+              <div class="absolute bg-black top-0 left-0 opacity-50 w-full h-full"></div>
+            </div>
+            <div class="flex-1 px-4 text-center md:text-left">
+              <h2 class="text-4xl text-yellow-400 font-semibold py-2">Join Our Class</h2>
+              <p class="text-semi-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quas voluptates beatae corporis vel non!</p>
+              <ul class="list-disc py-2 md:px-8 text-lg mb-2">
+                <li>Monday, 4th November 2021</li>
+                <li>Tuesday, 5th November 2021</li>
+                <li>Wednesday, 6th November 2021</li>
+                <li>Thursday, 7th November 2021</li>
+              </ul>
+              <button class="bg-gradient-to-r from-yellow-300 to-green-300 rounded text-white px-4 py-2 text-lg font-semibold hover:from-green-300 hover:to-yellow-300">More Info</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-white px-8 py-5" id="contact">
+          <h1 class="text-5xl font-bold text-semi-black text-center md:text-left">Contact</h1>
+          <p class="px-1 py-2 text-lg font-semibold text-black opacity-50 text-center md:text-left">Get in touch with us</p>
+          <div class="bg-contact-image relative bg-no-repeat bg-cover">
+            <form action="" class="z-10 text-white relative px-6 py-2" id="contact-form">
+              <div class="p-2">
+                <input type="text" required placeholder="Name" class="text-lg inp-contact" id="name" />
+              </div>
+              <div class="p-2">
+                <input type="email" required placeholder="Email" class="text-lg inp-contact" id="email" />
+              </div>
+              <div class="p-2">
+                <input type="text" required placeholder="Phone" class="text-lg inp-contact" id="phone" />
+              </div>
+              <div class="p-2">
+                <input type="text" required placeholder="Subject" class="text-lg inp-contact" id="subject" />
+              </div>
+              <div class="p-2">
+                <textarea name="" id="comment" class="inp-contact" rows="4"></textarea>
+              </div>
+              <div class="p-2 flex justify-center md:justify-start">
+                <button type="submit" class="px-8 py-2 text-white border-0 bg-green-400 rounded-3xl text-lg font-semibold shadow hover:bg-green-300 transition duration-300">Send Message</button>
+              </div>
+            </form>
+            <div class="bg-gradient absolute bg-gradient-to-r from-yellow-600 to-green-600 w-full h-full top-0 left-0 opacity-80 z-0"></div>
+          </div>
+        </section>
+
+        <footer class="bg-gradient-to-r from-green-300 to-yellow-400 p-4 flex text-white text-lg justify-center items-center font-semibold">
+          <span>Created by Galvin Santoso</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
